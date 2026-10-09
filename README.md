@@ -1,5 +1,8 @@
 # MMM-Weatherdotcom
 
+> [!WARNING]
+> **AI disclaimer:** This module was written with the assistance of [Claude](https://www.anthropic.com/claude), an AI model by Anthropic, working with bl8demast3r. It is covered by automated tests and was tried on a running MagicMirror², but AI-generated code can contain mistakes. Please review the code, use it with caution and test it thoroughly in your own setup.
+
 A [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) module that polls [Weather.com](https://weather.com/) for weather data, with the [NOAA National Weather Service API](https://www.weather.gov/documentation/services-web-api) as a backup, and shares that data with other modules.
 
 Several weather modules on one mirror usually each poll the same weather source. With MMM-Weatherdotcom, the weather is fetched **once** per update interval, on the MagicMirror server, and every module that needs it receives the same data. That holds no matter how many modules use the data or how many browsers show the mirror.
@@ -150,6 +153,11 @@ Each set is a folder in `icons/`: `1c`–`5c` (color), `1m`–`5m` (monochrome),
 ![Icon Sets](icons/iconsets.gif?raw=true "Icon Sets")
 
 Open `icons/icon-preview.html` in a browser to preview every set.
+
+## Contributors
+
+- **[bl8demast3r](https://github.com/bl8demast3r)**: maintainer
+- **[Claude](https://www.anthropic.com/claude)** (AI model by Anthropic): wrote the code, tests and documentation with bl8demast3r
 
 ## Attributions
 
