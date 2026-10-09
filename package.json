@@ -1,0 +1,21 @@
+{
+  "name": "MMM-Weatherdotcom",
+  "version": "1.0.0",
+  "description": "MagicMirror² module that polls Weather.com (with NOAA as a backup) once and shares the weather data and icon sets with other modules",
+  "main": "MMM-Weatherdotcom.js",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "MagicMirror",
+    "module",
+    "weather",
+    "Weather.com",
+    "NOAA"
+  ],
+  "author": "bl8demast3r",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  }
+}
